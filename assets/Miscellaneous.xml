@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Book1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <record>
+       <offence>Use of Offensive Number Plate for vehicle used in driving.</offence>
+       <penalty>Rs. 100</penalty>
+       <section>CMVR 105 (2) (ii),177 MVA</section>
+    </record>
+
+<record>
+<offence>Displaying 'Applied For'.</offence>
+<penalty>Rs. 4500/-</penalty>
+<section>39/192 MVA</section>
+</record>
+
+ <record>
+       <offence>Improper use of headlights/tail light while driving.</offence>
+       <penalty>Rs. 100</penalty>
+       <section>CMVR 105 (2) (ii),177 MVA</section>
+    </record>
+
+<record>
+<offence>Using High Beam where not required.</offence>
+<penalty>Rs. 100/-</penalty>
+<section>112(G) A DMVR,177 MVA</section>
+</record>
+
+ <record>
+       <offence>Driving without Horn.</offence>
+       <penalty>Rs. 100</penalty>
+       <section>119(1)/177 CMVR</section>
+    </record>
+
+<record>
+<offence>Improper horn usage while driving.</offence>
+<penalty>Rs. 100/-</penalty>
+<section>CMVR 105 (2) (ii),177 MVA</section>
+</record>
+</Book1>

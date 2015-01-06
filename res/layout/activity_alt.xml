@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg" >
+
+    <ImageButton
+        android:id="@+id/TowButton"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:padding="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ico8" />
+
+    <ImageButton
+        android:id="@+id/PunctureButton"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="46dp"
+        android:layout_toRightOf="@+id/TowButton"
+        android:padding="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ico7" />
+
+    <ImageButton
+        android:id="@+id/FeedbackButton"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="46dp"
+        android:layout_toLeftOf="@+id/TowButton"
+        android:padding="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ico9" />
+
+    <ImageButton
+        android:id="@+id/TagButton"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_above="@+id/FeedbackButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:padding="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ico2" />
+
+    <ImageButton
+        android:id="@+id/SearchButton"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignRight="@+id/FeedbackButton"
+        android:layout_alignTop="@+id/TagButton"
+        android:padding="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ico1" 
+       />
+
+    <ImageButton
+        android:id="@+id/FineButton"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignLeft="@+id/PunctureButton"
+        android:layout_alignTop="@+id/TagButton"
+        android:padding="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ico3" />
+
+    <ImageButton
+        android:id="@+id/ReminderButton"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/TowButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:padding="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ico4" />
+
+    <ImageButton
+        android:id="@+id/FavButton"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignRight="@+id/FeedbackButton"
+        android:layout_alignTop="@+id/ReminderButton"
+        android:padding="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ico6" />
+
+    <ImageButton
+        android:id="@+id/AboutButton"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignLeft="@+id/PunctureButton"
+        android:layout_alignTop="@+id/ReminderButton"
+        android:padding="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ico5" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/SearchButton"
+        android:layout_alignRight="@+id/SearchButton"
+        android:layout_below="@+id/SearchButton"
+        android:text="@string/searchString"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:gravity="center"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SearchButton"
+        android:layout_toLeftOf="@+id/PunctureButton"
+        android:layout_toRightOf="@+id/FeedbackButton"
+        android:text="@string/tagString"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:gravity="center"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView3UpdateSpot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignLeft="@+id/FineButton"
+        android:layout_alignRight="@+id/FineButton"
+        android:text="@string/fineString"
+        android:textAppearance="?android:attr/textAppearanceSmall" 
+        android:gravity="center"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/updateSpotTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/FeedbackButton"
+        android:layout_alignRight="@+id/FeedbackButton"
+        android:layout_below="@+id/FeedbackButton"
+        android:text="@string/feedbackString"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:gravity="center"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/updateSpotTitle"
+        android:layout_alignBottom="@+id/updateSpotTitle"
+        android:layout_toLeftOf="@+id/PunctureButton"
+        android:layout_toRightOf="@+id/FeedbackButton"
+        android:text="@string/towString"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:gravity="center"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/daysInfoWindow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView5"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_alignLeft="@+id/PunctureButton"
+        android:layout_alignRight="@+id/PunctureButton"
+        android:gravity="center"
+        android:text="@string/punctureString"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/FavButton"
+        android:layout_alignRight="@+id/FavButton"
+        android:layout_below="@+id/FavButton"
+        android:text="@string/favoriteString"
+        android:textAppearance="?android:attr/textAppearanceSmall" 
+        android:gravity="center"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/timingInfoWindow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView7"
+        android:layout_alignBottom="@+id/textView7"
+        android:layout_toLeftOf="@+id/PunctureButton"
+        android:layout_toRightOf="@+id/FeedbackButton"
+        android:text="@string/reminderString"
+        android:textAppearance="?android:attr/textAppearanceSmall" 
+        android:gravity="center"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/timingInfoWindow"
+        android:layout_alignBottom="@+id/timingInfoWindow"
+        android:layout_alignLeft="@+id/AboutButton"
+        android:layout_alignRight="@+id/AboutButton"
+        android:text="@string/aboutString"
+        android:textAppearance="?android:attr/textAppearanceSmall" 
+        android:gravity="center"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/copyRightText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#C8C8C8C8"
+        android:layout_marginBottom="10dp"
+        android:text="@string/copyRight" />
+
+    <TextView
+        android:id="@+id/mainLayoutUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="TextView" />
+
+</RelativeLayout>

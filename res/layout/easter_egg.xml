@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="20dp"
+    android:background="@drawable/bg" >
+
+<!--     <RelativeLayout  -->
+<!--         android:layout_width="wrap_content" -->
+<!--     	android:layout_height="wrap_content" -->
+<!--     	android:layout_marginBottom="20dp" -->
+<!--     	android:layout_marginTop="20dp"> -->
+    	
+	    <ImageView
+	        android:id="@+id/imageView1"
+	        android:layout_width="100dp"
+	        android:layout_height="100dp"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true"
+	        android:layout_marginLeft="20dp"
+	        android:layout_marginTop="20dp"
+	        android:src="@drawable/huzefapic" />
+	
+	    <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignTop="@+id/imageView1"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginTop="20dp"
+	        android:layout_toRightOf="@+id/imageView1"
+	        android:text="Huzefa \nDargahwala"
+	        android:textSize="17sp"
+	        android:textStyle="bold" />
+	
+	    <TextView
+	        android:id="@+id/textView2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/textView1"
+	        android:layout_below="@+id/textView1"
+	        android:text="" />
+	
+	    <ImageView
+	        android:id="@+id/imageView2"
+	        android:layout_width="100dp"
+	        android:layout_height="100dp"
+	        android:layout_alignLeft="@+id/imageView1"
+	        android:layout_below="@+id/imageView1"
+	        android:layout_marginTop="20dp"
+	        
+	        android:src="@drawable/aamirpic" />
+	
+	    <TextView
+	        android:id="@+id/TextView01"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignTop="@+id/imageView2"
+	        android:layout_marginTop="20dp"
+	        android:layout_marginLeft="10dp"
+	        android:layout_toRightOf="@+id/imageView2"
+	        android:text="Aamir \nGoriawala"
+	        android:textSize="17sp"
+	        android:textStyle="bold" />
+	
+	    <TextView
+	        android:id="@+id/TextView02"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/TextView01"
+	        android:layout_alignRight="@+id/textView2"
+	        android:layout_below="@+id/TextView01"
+	        android:text="" />
+
+<!-- 	  </RelativeLayout>   -->
+</RelativeLayout>

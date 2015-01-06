@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >    
+
+     <fragment 
+	    android:id="@+id/map"
+	    android:name="com.google.android.gms.maps.SupportMapFragment"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+    />
+	<LinearLayout
+	    android:layout_height="48dp"
+	    android:layout_width="match_parent"
+	    android:layout_gravity="bottom"
+	    android:weightSum="2"
+	    >
+
+	    <Button
+	        android:id="@+id/doneTagButton"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="bottom"
+	        android:layout_weight="1"
+	        android:background="@drawable/buttonbg"
+	        android:padding="0dp"
+	        android:text="@string/done" 
+	        android:visibility="invisible"/>
+
+	    <Button
+	        android:id="@+id/cancelTagButton"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:background="@drawable/buttonbg"
+	        android:padding="0dp"
+	        android:text="@string/cancel" 
+	        android:visibility="invisible"/>
+	    
+	</LinearLayout>
+
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="48dp" >
+
+	    <EditText
+	        android:id="@+id/searchBarSearchActivity"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_alignParentLeft="true"
+	        android:layout_toLeftOf="@+id/searchButtonSearchActivity"
+	        android:background="#ffffff"
+	        android:padding="5dp"
+	        android:singleLine="true" >
+
+	        <requestFocus />
+	    </EditText>
+
+	    <Button
+	        android:id="@+id/searchButtonSearchActivity"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:layout_alignParentRight="true"
+	        android:background="@drawable/buttonbg"
+	        android:text="@string/find" />
+	</RelativeLayout>
+
+</FrameLayout>

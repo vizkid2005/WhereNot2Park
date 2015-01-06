@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Book1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<record>
+		<offence>Driving without a Valid License</offence>
+		<penalty>Rs. 500/-</penalty>
+		<section>3 r/w 181 MVA</section>
+	</record>
+	<record>
+		<offence>Allowing vehicle to be driven by a person who does not possess a Valid License.</offence>
+		<penalty>Rs. 1000/-</penalty>
+		<section>5 r/w 180 MVA</section>
+	</record>
+	<record>
+		<offence>Not carrying documents as required.</offence>
+		<penalty>Rs. 100/-</penalty>
+		<section>130(3) r/w 177 MVA</section>
+	</record>
+	<record>
+		<offence>Driving without Valid Insurance.</offence>
+		<penalty>Rs. 1000/-</penalty>
+		<section>130 r/w 177 MVA</section>
+	</record>
+	<record>
+		<offence>Driving without Valid Permit.</offence>
+		<penalty>Rs. 5000/-</penalty>
+		<section>130 r/w 177 MVA</section>
+	</record>
+	<record>
+		<offence>Driving without Valid Fitness.</offence>
+		<penalty>Rs. 5000/-</penalty>
+		<section>130 r/w 177 MVA</section>
+	</record>
+	<record>
+		<offence>Vehicle without R.C.</offence>
+		<penalty>Rs 2000/-</penalty>
+		<section>39 r/w192 MVA</section>
+	</record>
+</Book1>

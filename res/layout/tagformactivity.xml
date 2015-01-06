@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:scrollbars="vertical" >
+    
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" >
+        
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/tagFormCost"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000" />
+
+        <RatingBar
+            android:id="@+id/ratingBarTag1"
+            style="@style/AppBaseTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/costBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/textView1"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:ems="10"
+            android:inputType="number" />
+
+        <Spinner
+            android:id="@+id/spinner12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/ratingBarTag1"
+            android:visibility="visible" 
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_below="@+id/spinner12"
+            android:layout_gravity="bottom"
+            android:weightSum="2"
+            android:layout_marginTop="10dp"
+           >
+
+            <Button
+                android:id="@+id/doneButtonTagFormAlt"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="bottom"
+                android:layout_weight="1"
+                android:background="@drawable/buttonbg"
+                android:padding="0dp"
+                android:text="@string/done"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/cancelButtonTagFormAlt"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/buttonbg"
+                android:padding="0dp"
+                android:text="@string/cancel"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/costBox1"
+            android:text="@string/rating"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000" />
+        
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Book1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <record>
+       <offence>Disobeying Traffic Police Officer in uniform.</offence>
+       <penalty>Rs. 100</penalty>
+       <section>119 MVA,22(a) RRR,177 MVA</section>
+    </record>
+
+<record>
+<offence>Driving against Police Signal.</offence>
+<penalty>Rs. 100</penalty>
+<section>119 r/w 177 MVA,239 MMVR</section>
+</record>
+
+<record>
+<offence>Disobeying manual Traffic Signal.</offence>
+<penalty>Rs. 100</penalty>
+<section>22(a) RRR,177 MVA</section>
+</record>
+
+<record>
+<offence>Disobeying Traffic signal / Sign Board.</offence>
+<penalty>Rs. 100</penalty>
+<section>22(b) RRR,239 MMVR,177 MVA</section>
+</record>
+
+
+<record>
+<offence>Failing to give Signal.</offence>
+<penalty>Rs. 100</penalty>
+<section>121 RRR,177 MVA</section>
+</record>
+
+
+<record>
+<offence>Jumping Signal.</offence>
+<penalty>Rs. 100</penalty>
+<section>119/177 MVA</section>
+</record>
+</Book1>

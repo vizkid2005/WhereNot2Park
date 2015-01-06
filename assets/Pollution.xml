@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Book1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<record>
+		<offence>Smoking in Public Transport.</offence>
+		<penalty>Rs. 100/-</penalty>
+		<section>86(1)(5)/177 DMVR</section>
+	</record>
+	<record>
+		<offence>Pollution Not Under Control.</offence>
+		<penalty>Rs. 100/-</penalty>
+		<section>99(1)(a)/177 DMVR</section>
+	</record>
+	<record>
+		<offence>Fixing multi-toned/shrill horn.</offence>
+		<penalty>Rs.500/-</penalty>
+		<section>119 CMVR ,190(2) MVA</section>
+	</record>
+	<record>
+		<offence>Blowing Pressure Horn.</offence>
+		<penalty>Rs. 100/-</penalty>
+		<section>96(1)/177 DMVR</section>
+	</record>
+	<record>
+		<offence>Silencer/muffler making noise.</offence>
+		<penalty>Rs.500/-</penalty>
+		<section>CMVR 120,190(2) MVA</section>
+	</record>
+	<record>
+		<offence>Smoky Exhaust.</offence>
+		<penalty>Rs.500/-</penalty>
+		<section>115 CMVR,190(2) MVA</section>
+	</record>
+	<record>
+		<offence>Using horn in Silence Zone.</offence>
+		<penalty>Rs.100/-</penalty>
+		<section>21(ii) RRR,177 MVA</section>
+	</record>
+</Book1>

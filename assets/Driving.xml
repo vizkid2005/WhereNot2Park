@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Book1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<record>
+		<offence>Not carrying valid licence while driving</offence>
+		<penalty>Rs 100/-</penalty>
+		<section>177</section>
+	</record>
+	<record>
+		<offence>Not carrying documents as required</offence>
+		<penalty>Rs 100/-</penalty>
+		<section>177</section>
+	</record>
+	<record>
+		<offence>Dangerous Lane cutting</offence>
+		<penalty>Rs 100/-</penalty>
+		<section>177</section>
+	</record>
+	<record>
+		<offence>Moving against One-Way</offence>
+		<penalty>Rs 100/-</penalty>
+		<section>177</section>
+	</record>
+	<record>
+		<offence>Overtaking dangerously</offence>
+		<penalty>Rs 100/-</penalty>
+		<section>177</section>
+	</record>
+	<record>
+		<offence>Jumping Signal (driving at red light)</offence>
+		<penalty>Rs 100/-</penalty>
+		<section>177</section>
+	</record>
+	<record>
+		<offence>Driving on Footpath</offence>
+		<penalty>Rs 100/-</penalty>
+		<section>177</section>
+	</record>
+	<record>
+		<offence>Stopping at Pedestrian Crossing or Crossing Stop Line</offence>
+		<penalty>Rs 100/-</penalty>
+		<section>177</section>
+	</record>
+	<record>
+		<offence>Parking Violations</offence>
+		<penalty>Rs 100/-</penalty>
+		<section>177</section>
+	</record>
+	<record>
+		<offence>Horn offences</offence>
+		<penalty>Rs 100/-</penalty>
+		<section>177</section>
+	</record>
+	<record>
+		<offence>Number Plate Offences</offence>
+		<penalty>Rs 100/-</penalty>
+		<section>177</section>
+	</record>
+	<record>
+		<offence>Improper use of Headlights</offence>
+		<penalty>Rs 100/-</penalty>
+		<section>177</section>
+	</record>
+	<record>
+		<offence>Charging Excess Fare</offence>
+		<penalty>Rs 100/-</penalty>
+		<section>177</section>
+	</record>
+	<record>
+		<offence>Misbehavior with Passenger</offence>
+		<penalty>Rs 100/-</penalty>
+		<section>177</section>
+	</record>
+	<record>
+		<offence>Refusal to ply for Hire</offence>
+		<penalty>Rs 100/-</penalty>
+		<section>177</section>
+	</record>
+	<record>
+		<offence>Breach of rules regarding carriage of hazardous goods</offence>
+		<penalty>Rs 100/-</penalty>
+		<section>177</section>
+	</record>
+	<record>
+		<offence>Using Mobile Phones while driving</offence>
+		<penalty>Rs 100/-</penalty>
+		<section>177</section>
+	</record>
+	<record>
+		<offence>Driving without Helmet</offence>
+		<penalty>Rs 100/-</penalty>
+		<section>177</section>
+	</record>
+	<record>
+		<offence>Breach of order, refusal to give information</offence>
+		<penalty>Rs 500/-</penalty>
+		<section>179</section>
+	</record>
+	<record>
+		<offence>Allowing the vehicle to be driven by a person who does notpossess a valid licence</offence>
+		<penalty> Rs 1000 /-</penalty>
+		<section>180</section>
+	</record>
+	<record>
+		<offence>Driving without valid licence</offence>
+		<penalty> Rs 500/-</penalty>
+		<section>181</section>
+	</record>
+	<record>
+		<offence>Offences related to driving license</offence>
+		<penalty> Rs 500/-</penalty>
+		<section>182</section>
+	</record>
+	<record>
+		<offence>Lack of proper maintenance and structure of vehicle</offence>
+		<penalty> Rs. 1000/-</penalty>
+		<section>182(A)</section>
+	</record>
+	<record>
+		<offence>Driving at a speed exceeding as mentioned in MVA:112</offence>
+		<penalty>Rs. 400/-</penalty>
+		<section>183</section>
+	</record>
+	<record>
+		<offence>Dangerous or Reckless Driving</offence>
+		<penalty>up to Rs. 1000 .</penalty>
+		<section>184</section>
+	</record>
+	<record>
+		<offence>Driving under influence of Drugs or Alcohols</offence>
+		<penalty>up to Rs. 2000 </penalty>
+		<section>185</section>
+	</record>
+	<record>
+		<offence>Accidental Offences</offence>
+		<penalty>up to Rs. 500 </penalty>
+		<section>187</section>
+	</record>
+	<record>
+		<offence>Illegal racing on road</offence>
+		<penalty> up to Rs 500</penalty>
+		<section>189</section>
+	</record>
+	<record>
+		<offence>Using vehicle in Unsafe conditions</offence>
+		<penalty>up to Rs. 250/-</penalty>
+		<section>190</section>
+	</record>
+	<record>
+		<offence>Using Loudspeaker beyond specified limit</offence>
+		<penalty> Rs. 1000/-</penalty>
+		<section>190(2)</section>
+	</record>
+	<record>
+		<offence>Carriage of goods which are of dangerous &amp; hazardous nature to human life</offence>
+		<penalty>up to Rs. 3000 /-</penalty>
+		<section>190(3)</section>
+	</record>
+	<record>
+		<offence>Driving without Registration and valid Permit</offence>
+		<penalty> up to Rs. 5000 (not less than Rs. 2000) </penalty>
+		<section>192</section>
+	</record>
+	<record>
+		<offence>Driving without valid Fitness Certificate</offence>
+		<penalty> up to Rs. 5000 (not less than Rs. 2000)</penalty>
+		<section>192</section>
+	</record>
+	<record>
+		<offence>Using Private vehicle for Commercial purposes</offence>
+		<penalty> up to Rs. 5000 (not less than Rs. 2000) </penalty>
+		<section>192</section>
+	</record>
+	<record>
+		<offence>Breach of Permit conditions</offence>
+		<penalty>up to Rs. 5000 (not less than Rs. 2000) </penalty>
+		<section>192</section>
+	</record>
+	<record>
+		<offence>Overloading a vehicle beyond extent limit</offence>
+		<penalty> up to Rs 2000 and 
+Rs. 1000 per tonne of extra load.</penalty>
+		<section>194</section>
+	</record>
+	<record>
+		<offence>Driving without Insurance</offence>
+		<penalty>Rs. 1000/-</penalty>
+		<section>196</section>
+	</record>
+	<record>
+		<offence>Driving of vehicle without legal authority</offence>
+		<penalty>Rs. 500/-</penalty>
+		<section>197</section>
+	</record>
+	<record>
+		<offence>Disturbance in free flow of traffic</offence>
+		<penalty> up to Rs 50 per hour.</penalty>
+		<section>201</section>
+	</record>
+	<record>
+		<offence>Driving against Police signal</offence>
+		<penalty>100</penalty>
+		<section>119 r/w 177 MVA</section>
+	</record>
+	<record>
+		<offence>Driving in the centre/failed to keep left</offence>
+		<penalty>100</penalty>
+		<section>2 RRR r/w 177 MVA</section>
+	</record>
+	<record>
+		<offence>Overtaking dangerously</offence>
+		<penalty>100</penalty>
+		<section>6 (a) RRR r/w 177 MVA</section>
+	</record>
+	<record>
+		<offence>Failing to give way/permit overtaking</offence>
+		<penalty>100</penalty>
+		<section>7 RRR 177 MVA</section>
+	</record>
+	<record>
+		<offence>Failing to slowdown at intersection</offence>
+		<penalty>100</penalty>
+		<section>8 RRR 177 MVA</section>
+	</record>
+	<record>
+		<offence>Failing to take precaution while taking a turn</offence>
+		<penalty>100</penalty>
+		<section>3 RRR 177 MVA</section>
+	</record>
+	<record>
+		<offence>Failing to give signal</offence>
+		<penalty>100</penalty>
+		<section>121 RRR 177 MVA</section>
+	</record>
+	<record>
+		<offence>Reversing negligently </offence>
+		<penalty>100</penalty>
+		<section>MMVR 233 177 MVA</section>
+	</record>
+	<record>
+		<offence>Disobeying traffic signal</offence>
+		<penalty>100</penalty>
+		<section>239 MMVR ,22(b) RRR , 177 MVA</section>
+	</record>
+	<record>
+		<offence>Disobeying manual traffic signal</offence>
+		<penalty>100</penalty>
+		<section>239 MMVR , 22(a) RRR , 177 MVA</section>
+	</record>
+	<record>
+		<offence>Driving against one-way</offence>
+		<penalty>100</penalty>
+		<section>17 (i) RRR 177 MVA</section>
+	</record>
+	<record>
+		<offence>Failing to keep left of traffic island</offence>
+		<penalty>100</penalty>
+		<section>2 RRR 177 MVA</section>
+	</record>
+	<record>
+		<offence>Exceeding speed limit</offence>
+		<penalty>200</penalty>
+		<section>112-183 MVA</section>
+	</record>
+	<record>
+		<offence>Taking ‘U’ turn during prohibited hours</offence>
+		<penalty>100</penalty>
+		<section>12 RRR 177 MVA</section>
+	</record>
+	<record>
+		<offence>Disobeying reasonable directions of police officer in uniform</offence>
+		<penalty>100</penalty>
+		<section>119 MVA , 22(a) RRR, 177 MVA</section>
+	</record>
+</Book1>

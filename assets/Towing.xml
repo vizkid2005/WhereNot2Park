@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Book1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<record>
+		<offence>Two Wheeler.</offence>
+		<penalty>Rs.100+Rs100(Towing)</penalty>
+		<section>RRR 177 MVA</section>
+	</record>
+	<record>
+		<offence>Car , Jeep, Taxi, Auto Rickshaw.</offence>
+		<penalty>Rs.200+Rs100(Towing)</penalty>
+		<section>RRR 177 MVA</section>
+	</record>
+	<record>
+		<offence>Truck, Tanker, Trailor.</offence>
+		<penalty>Rs.600+Rs100(Towing)</penalty>
+		<section>RRR 177 MVA</section>
+	</record>
+</Book1>

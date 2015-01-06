@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Book1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<record>
+		<offence>Exceeding the prescribed Speed Limits.</offence>
+		<penalty>Up to Rs.1000/-</penalty>
+		<section>112-183 MVA</section>
+	</record>
+	<record>
+		<offence>Abetment for Over Speeding .</offence>
+		<penalty>Rs.300/-</penalty>
+		<section>112/183(2) MVA</section>
+	</record>
+	<record>
+		<offence>Overtaking perilously.</offence>
+		<penalty>Rs.100/-</penalty>
+		<section>6 (a) RRR r/w 177 MVA</section>
+	</record>
+	<record>
+		<offence>Failing to confer way to sanction Overtaking.</offence>
+		<penalty>Rs.100/-</penalty>
+		<section>7 RRR,177 MVA</section>
+	</record>
+	<record>
+		<offence>Overtaking from Wrong Side .</offence>
+		<penalty>Rs. 100/-</penalty>
+		<section>RRR 6/1/177 MVA</section>
+	</record>
+</Book1>

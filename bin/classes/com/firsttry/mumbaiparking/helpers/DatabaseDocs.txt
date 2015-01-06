@@ -1,0 +1,10 @@
+Database Documentation 
+
+1. In the table 'coordinates' I have added a foreign key constraint that references to 
+	the subId of 'markerdata' This will make sure no rogue entries make way into the DB
+	I have also used the "on update cascade" and "on delete casacade" to the coordinates table, so any changes 
+	to the subid in markerdata will result in an updation in the coordinates table also and 
+	if any row in markerdata is deleted, the corresponding coordinates will also be removed
+	So less work later for us.
+	
+	  

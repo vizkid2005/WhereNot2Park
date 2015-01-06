@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true" >
+
+	    <TextView
+	        android:id="@+id/licenseLabel"
+	        android:layout_width="wrap_content"
+	        android:layout_height="24dp"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/cancelTagButton"
+	        android:layout_marginTop="10dp"
+	        android:text="@string/licenseRenewalLabel"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	    <EditText
+	        android:id="@+id/insuranceBox"
+	        android:layout_width="wrap_content"
+	        android:layout_height="48dp"
+	        android:layout_alignParentLeft="true"
+	        android:layout_centerVertical="true"
+	        android:inputType="none"
+	        android:focusable="false"
+	        android:ems="10"
+	     	/>
+	
+	    <TextView
+	        android:id="@+id/insuranceLabel"
+	        android:layout_width="wrap_content"
+	        android:layout_height="24dp"
+	        android:layout_above="@+id/insuranceBox"
+	        android:layout_alignParentLeft="true"
+	        android:layout_marginTop="10dp"
+	        android:text="@string/insuranceRenewalLabel"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	    <EditText
+	        android:id="@+id/pucBox"
+	        android:layout_width="wrap_content"
+	        android:layout_height="48dp"
+	        android:layout_alignBaseline="@+id/doneTagButton"
+	        android:layout_alignBottom="@+id/doneTagButton"
+	        android:layout_alignParentLeft="true"
+	        android:inputType="none"
+	        android:focusable="false"
+	        android:ems="10"
+	        />
+	
+	    <TextView
+	        android:id="@+id/pucLabel"
+	        android:layout_width="wrap_content"
+	        android:layout_height="24dp"
+	        android:layout_above="@+id/doneTagButton"
+	        android:layout_alignParentLeft="true"
+	        android:text="@string/pucRenewalLabel"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	    <EditText
+	        android:id="@+id/licenseBox"
+	        android:layout_width="wrap_content"
+	        android:layout_height="48dp"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignTop="@+id/licenseButton"
+	        android:focusable="false"
+	        android:inputType="none"
+	        android:ems="10"
+	    />
+	
+	    <Button
+	        android:id="@+id/doneTagButton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="48dp"
+	        android:layout_above="@+id/insuranceLabel"
+	        android:layout_marginLeft="20dp"
+	        android:layout_toRightOf="@+id/pucBox"
+	        android:background="@drawable/buttonbg"
+	        android:padding="5dp"
+	        android:text="@string/datePickerChangeLabel" />
+	
+	    <Button
+	        android:id="@+id/licenseButton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="48dp"
+	        android:layout_below="@+id/licenseLabel"
+	        android:layout_marginLeft="20dp"
+	        android:layout_toRightOf="@+id/licenseBox"
+	        android:background="@drawable/buttonbg"
+	        android:padding="5dp"
+	        android:text="@string/datePickerChangeLabel" />
+	
+	    <Button
+	        android:id="@+id/cancelTagButton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="48dp"
+	        android:layout_alignLeft="@+id/licenseButton"
+	        android:layout_alignTop="@+id/insuranceBox"
+	        android:background="@drawable/buttonbg"
+	        android:padding="5dp"
+	        android:text="@string/datePickerChangeLabel" />
+	</RelativeLayout>
+</RelativeLayout>

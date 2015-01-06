@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:background="@drawable/bg"
+     >
+    
+    <TextView
+        android:id="@+id/lblListItem"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textColor="#808080"
+        android:paddingLeft="5dp" />
+
+
+<TextView
+    android:id="@+id/sectionOffence"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/lblListItem"
+    android:text="TextView" 
+    android:textColor="#808080"
+    android:paddingLeft="5dp"
+    />
+
+<TextView
+    android:id="@+id/fineOffence"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/sectionOffence"
+    android:layout_alignBottom="@+id/sectionOffence"
+    android:layout_alignParentRight="true"
+    android:textColor="#ff4444"
+    android:paddingRight="5dp"
+    android:text="TextView" />
+
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Book1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<record>
+		<offence>Parking in flow of traffic</offence>
+		<penalty>Rs. 100</penalty>
+		<section>22(a) RRR &amp;177 MVA</section>
+	</record>
+	<record>
+		<offence>Parking away from footpath</offence>
+		<penalty>Rs. 100</penalty>
+		<section>15(2) RRR &amp;177 MVA</section>
+	</record>
+	<record>
+		<offence>Parking against flow of traffic</offence>
+		<penalty>Rs. 100</penalty>
+		<section>15(2) RRR &amp;177 MVA</section>
+	</record>
+	<record>
+		<offence>Obstruction by parking</offence>
+		<penalty>Rs. 100</penalty>
+		<section>15(2) RRR &amp; 177 MVA</section>
+	</record>
+	<record>
+		<offence>Parking on taxi stand</offence>
+		<penalty>Rs. 100</penalty>
+		<section>15(2) RRR &amp;177 MVA</section>
+	</record>
+	<record>
+		<offence>Parking in not prescribed manner</offence>
+		<penalty>Rs. 100</penalty>
+		<section>15(1) RRR &amp; 177 MVA</section>
+	</record>
+	<record>
+		<offence>Parking at corner</offence>
+		<penalty>Rs. 100</penalty>
+		<section>15(i) RRR &amp;177 MVA</section>
+	</record>
+	<record>
+		<offence>Parking within 15 meters on either side of bus stop</offence>
+		<penalty>Rs. 100</penalty>
+		<section>15(2) RRR &amp; 177 MVA</section>
+	</record>
+	<record>
+		<offence>Parking on bridge</offence>
+		<penalty>Rs. 100</penalty>
+		<section>15(2) (i) RRR &amp; 177 MVA</section>
+	</record>
+	<record>
+		<offence>Parked at traffic island</offence>
+		<penalty>Rs. 100</penalty>
+		<section>15(i) RRR &amp; 177 MVA</section>
+	</record>
+	<record>
+		<offence>Parked in No Parking area</offence>
+		<penalty>Rs. 100</penalty>
+		<section>15(2) RRR &amp; 177 MVA</section>
+	</record>
+	<record>
+		<offence>Parked on pedestrian crossing</offence>
+		<penalty>Rs. 100</penalty>
+		<section>15(2)(iii) RRR &amp; 177 MVA</section>
+	</record>
+	<record>
+		<offence>Parked on footpath</offence>
+		<penalty>Rs. 100</penalty>
+		<section>15(2)(ii) RRR &amp; 177 MVA</section>
+	</record>
+	<record>
+		<offence>Parked in front of gate</offence>
+		<penalty>Rs. 100</penalty>
+		<section>15(2)(viii) RRR &amp; 177 MVA</section>
+	</record>
+	<record>
+		<offence>Causing obstruction to traffic by parking</offence>
+		<penalty>Rs. 100</penalty>
+		<section>15(1) RRR &amp; 177 MVA</section>
+	</record>
+</Book1>
